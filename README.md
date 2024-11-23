@@ -55,3 +55,6 @@ This project allowed me to:
 Explore Google Cloud Functions for serverless architecture.
 Integrate and utilize the Google Natural Language API.
 Develop a full-stack application with cloud-based solutions.
+
+# Note for Users:
+Before running the project, add your own Google Cloud Function URL to the backend. Replace 'your-cloud-function-api-url' in the axios.post call with your actual Cloud Function URL.
