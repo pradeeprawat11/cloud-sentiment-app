@@ -12,7 +12,7 @@ app.use(express.json());
 app.post('/api/analyze-sentiment', async (req, res) => {
   try {
     const response = await axios.post(
-      'https://asia-south1-sentiment-analysis-by-pradeep.cloudfunctions.net/sentiment-function-1',
+      'your-cloud-function-api-url',
       { text: req.body.text }
     );
     res.json(response.data);
